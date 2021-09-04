@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B42225D26E382F5006F30F2 /* FluidAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B42225C26E382F5006F30F2 /* FluidAlarmApp.swift */; };
+		4B42225F26E382F5006F30F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B42225E26E382F5006F30F2 /* ContentView.swift */; };
+		4B42226126E382F7006F30F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B42226026E382F7006F30F2 /* Assets.xcassets */; };
+		4B42226426E382F7006F30F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B42226326E382F7006F30F2 /* Preview Assets.xcassets */; };
+		4B42226F26E382F7006F30F2 /* FluidAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B42226E26E382F7006F30F2 /* FluidAlarmTests.swift */; };
+		4B42227A26E382F7006F30F2 /* FluidAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B42227926E382F7006F30F2 /* FluidAlarmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B42226B26E382F7006F30F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B42225126E382F5006F30F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B42225826E382F5006F30F2;
+			remoteInfo = FluidAlarm;
+		};
+		4B42227626E382F7006F30F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B42225126E382F5006F30F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B42225826E382F5006F30F2;
+			remoteInfo = FluidAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B42225926E382F5006F30F2 /* FluidAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluidAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B42225C26E382F5006F30F2 /* FluidAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidAlarmApp.swift; sourceTree = "<group>"; };
+		4B42225E26E382F5006F30F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4B42226026E382F7006F30F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B42226326E382F7006F30F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B42226526E382F7006F30F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B42226A26E382F7006F30F2 /* FluidAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluidAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B42226E26E382F7006F30F2 /* FluidAlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidAlarmTests.swift; sourceTree = "<group>"; };
+		4B42227026E382F7006F30F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B42227526E382F7006F30F2 /* FluidAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluidAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B42227926E382F7006F30F2 /* FluidAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidAlarmUITests.swift; sourceTree = "<group>"; };
+		4B42227B26E382F7006F30F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B42225626E382F5006F30F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B42226726E382F7006F30F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B42227226E382F7006F30F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B42225026E382F5006F30F2 = {
+			isa = PBXGroup;
+			children = (
+				4B42225B26E382F5006F30F2 /* FluidAlarm */,
+				4B42226D26E382F7006F30F2 /* FluidAlarmTests */,
+				4B42227826E382F7006F30F2 /* FluidAlarmUITests */,
+				4B42225A26E382F5006F30F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B42225A26E382F5006F30F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B42225926E382F5006F30F2 /* FluidAlarm.app */,
+				4B42226A26E382F7006F30F2 /* FluidAlarmTests.xctest */,
+				4B42227526E382F7006F30F2 /* FluidAlarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B42225B26E382F5006F30F2 /* FluidAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				4B42225C26E382F5006F30F2 /* FluidAlarmApp.swift */,
+				4B42225E26E382F5006F30F2 /* ContentView.swift */,
+				4B42226026E382F7006F30F2 /* Assets.xcassets */,
+				4B42226526E382F7006F30F2 /* Info.plist */,
+				4B42226226E382F7006F30F2 /* Preview Content */,
+			);
+			path = FluidAlarm;
+			sourceTree = "<group>";
+		};
+		4B42226226E382F7006F30F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4B42226326E382F7006F30F2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4B42226D26E382F7006F30F2 /* FluidAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B42226E26E382F7006F30F2 /* FluidAlarmTests.swift */,
+				4B42227026E382F7006F30F2 /* Info.plist */,
+			);
+			path = FluidAlarmTests;
+			sourceTree = "<group>";
+		};
+		4B42227826E382F7006F30F2 /* FluidAlarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B42227926E382F7006F30F2 /* FluidAlarmUITests.swift */,
+				4B42227B26E382F7006F30F2 /* Info.plist */,
+			);
+			path = FluidAlarmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B42225826E382F5006F30F2 /* FluidAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B42227E26E382F7006F30F2 /* Build configuration list for PBXNativeTarget "FluidAlarm" */;
+			buildPhases = (
+				4B42225526E382F5006F30F2 /* Sources */,
+				4B42225626E382F5006F30F2 /* Frameworks */,
+				4B42225726E382F5006F30F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FluidAlarm;
+			productName = FluidAlarm;
+			productReference = 4B42225926E382F5006F30F2 /* FluidAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B42226926E382F7006F30F2 /* FluidAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B42228126E382F7006F30F2 /* Build configuration list for PBXNativeTarget "FluidAlarmTests" */;
+			buildPhases = (
+				4B42226626E382F7006F30F2 /* Sources */,
+				4B42226726E382F7006F30F2 /* Frameworks */,
+				4B42226826E382F7006F30F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B42226C26E382F7006F30F2 /* PBXTargetDependency */,
+			);
+			name = FluidAlarmTests;
+			productName = FluidAlarmTests;
+			productReference = 4B42226A26E382F7006F30F2 /* FluidAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B42227426E382F7006F30F2 /* FluidAlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B42228426E382F7006F30F2 /* Build configuration list for PBXNativeTarget "FluidAlarmUITests" */;
+			buildPhases = (
+				4B42227126E382F7006F30F2 /* Sources */,
+				4B42227226E382F7006F30F2 /* Frameworks */,
+				4B42227326E382F7006F30F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B42227726E382F7006F30F2 /* PBXTargetDependency */,
+			);
+			name = FluidAlarmUITests;
+			productName = FluidAlarmUITests;
+			productReference = 4B42227526E382F7006F30F2 /* FluidAlarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B42225126E382F5006F30F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4B42225826E382F5006F30F2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					4B42226926E382F7006F30F2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4B42225826E382F5006F30F2;
+					};
+					4B42227426E382F7006F30F2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4B42225826E382F5006F30F2;
+					};
+				};
+			};
+			buildConfigurationList = 4B42225426E382F5006F30F2 /* Build configuration list for PBXProject "FluidAlarm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B42225026E382F5006F30F2;
+			productRefGroup = 4B42225A26E382F5006F30F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B42225826E382F5006F30F2 /* FluidAlarm */,
+				4B42226926E382F7006F30F2 /* FluidAlarmTests */,
+				4B42227426E382F7006F30F2 /* FluidAlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B42225726E382F5006F30F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B42226426E382F7006F30F2 /* Preview Assets.xcassets in Resources */,
+				4B42226126E382F7006F30F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B42226826E382F7006F30F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B42227326E382F7006F30F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B42225526E382F5006F30F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B42225F26E382F5006F30F2 /* ContentView.swift in Sources */,
+				4B42225D26E382F5006F30F2 /* FluidAlarmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B42226626E382F7006F30F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B42226F26E382F7006F30F2 /* FluidAlarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B42227126E382F7006F30F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B42227A26E382F7006F30F2 /* FluidAlarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B42226C26E382F7006F30F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B42225826E382F5006F30F2 /* FluidAlarm */;
+			targetProxy = 4B42226B26E382F7006F30F2 /* PBXContainerItemProxy */;
+		};
+		4B42227726E382F7006F30F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B42225826E382F5006F30F2 /* FluidAlarm */;
+			targetProxy = 4B42227626E382F7006F30F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B42227C26E382F7006F30F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B42227D26E382F7006F30F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B42227F26E382F7006F30F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FluidAlarm/Preview Content\"";
+				DEVELOPMENT_TEAM = VM5H25X4KC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FluidAlarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KK1qz.FluidAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B42228026E382F7006F30F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FluidAlarm/Preview Content\"";
+				DEVELOPMENT_TEAM = VM5H25X4KC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FluidAlarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KK1qz.FluidAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B42228226E382F7006F30F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VM5H25X4KC;
+				INFOPLIST_FILE = FluidAlarmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KK1qz.FluidAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FluidAlarm.app/FluidAlarm";
+			};
+			name = Debug;
+		};
+		4B42228326E382F7006F30F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VM5H25X4KC;
+				INFOPLIST_FILE = FluidAlarmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KK1qz.FluidAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FluidAlarm.app/FluidAlarm";
+			};
+			name = Release;
+		};
+		4B42228526E382F7006F30F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VM5H25X4KC;
+				INFOPLIST_FILE = FluidAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KK1qz.FluidAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FluidAlarm;
+			};
+			name = Debug;
+		};
+		4B42228626E382F7006F30F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VM5H25X4KC;
+				INFOPLIST_FILE = FluidAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KK1qz.FluidAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FluidAlarm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B42225426E382F5006F30F2 /* Build configuration list for PBXProject "FluidAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B42227C26E382F7006F30F2 /* Debug */,
+				4B42227D26E382F7006F30F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B42227E26E382F7006F30F2 /* Build configuration list for PBXNativeTarget "FluidAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B42227F26E382F7006F30F2 /* Debug */,
+				4B42228026E382F7006F30F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B42228126E382F7006F30F2 /* Build configuration list for PBXNativeTarget "FluidAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B42228226E382F7006F30F2 /* Debug */,
+				4B42228326E382F7006F30F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B42228426E382F7006F30F2 /* Build configuration list for PBXNativeTarget "FluidAlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B42228526E382F7006F30F2 /* Debug */,
+				4B42228626E382F7006F30F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B42225126E382F5006F30F2 /* Project object */;
+}
